@@ -18,6 +18,7 @@ And the content of your CSV file will look like the below:
 
 ![image](https://user-images.githubusercontent.com/33433229/140596267-66e135a0-52ea-41a6-80f0-9623827c8672.png)
 
-If you load it in a CSV friendly application (like Excel), you would have something similar to the below:
+If you load it in a CSV friendly application (like Excel, with some conditionnal formatting), you would have something similar to the below:
 
-![image](https://user-images.githubusercontent.com/33433229/140596290-ea87e945-fa66-485c-8533-b6d3a0e096b8.png)
+![image](https://user-images.githubusercontent.com/33433229/140596352-4b61b99f-e442-43dc-8c76-d311cc17a5ee.png)
+
