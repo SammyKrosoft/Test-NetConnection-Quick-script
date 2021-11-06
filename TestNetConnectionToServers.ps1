@@ -1,11 +1,13 @@
 # Define output file name and path
-$ResultsFile = "C:\temp\TestConnectivityResults$(Get-Date -F DDMMMYYYY_hh-mm-ss).csv"
+$ResultsFile = "C:\temp\TestConnectivityResults_$(Get-Date -F ddMMMyyy_hh-mm-ss).csv"
 
 # Add more ports to test in the $Ports variable, use PowerShell list format, comma separated values in between brackets
 $Ports = (25,50636,443)
 
 # Add more servers IP, hostnames or fqdns in PowerShell list format, comma separated strings in between brackets
-[array]$Computers = ("Server1","Server2","Server3")
+#[array]$Computers = ("172.20.0.6","Edge01.CanadaDrey.ca")
+[array]$Computers = ("E2016-01","E2016-02","Edge01")
+
 
 # Initialize collection results variable (this is what we'll store in a file)
 $connectionresult = @()
